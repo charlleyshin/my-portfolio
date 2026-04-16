@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+@theme {
+  --font-sans: 'Noto Sans KR', Arial, Helvetica, sans-serif;
+
+  --color-textarea-bg: rgb(32, 33, 36);
+  --color-submit: rgb(26, 115, 232);
+  --color-submit-hover: rgb(51, 133, 238);
+  --color-chip-bg: rgb(24, 61, 121);
+  --color-chip-hover: rgb(36, 78, 148);
+  --color-chip-text: rgb(174, 203, 250);
+  --color-chip-border-hover: rgba(174, 203, 250, 0.3);
+  --color-disclaimer: rgb(189, 193, 198);
+  --color-placeholder: rgb(154, 160, 166);
+}
+
+@layer base {
+  html,
+  body {
+    @apply m-0 p-0 overflow-hidden h-full w-full font-sans;
+  }
+}

@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+@theme {
+  --font-sans: 'Inter', 'Noto Sans KR', Helvetica, sans-serif;
+
+  /* Brave Search derived tokens */
+  --color-foreground: rgb(28, 28, 29);
+  --color-muted: rgb(70, 70, 73);
+  --color-surface: rgb(242, 242, 243);
+  --color-outline: rgb(228, 228, 229);
+  --color-placeholder: rgb(120, 120, 124);
+
+  /* Dark panel tokens */
+  --color-chip-bg: rgb(24, 61, 121);
+  --color-chip-hover: rgb(36, 78, 148);
+  --color-chip-text: rgb(174, 203, 250);
+  --color-chip-border-hover: rgba(174, 203, 250, 0.3);
+  --color-disclaimer: rgb(189, 193, 198);
+}
+
+@layer base {
+  html,
+  body {
+    @apply m-0 p-0 overflow-hidden h-full w-full font-sans;
+  }
+}

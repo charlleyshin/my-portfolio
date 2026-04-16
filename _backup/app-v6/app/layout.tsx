@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Welcome to my personal website",
+  title: "Maison de Cafe",
+  description: "A cup of comfort",
 };
 
 export default function RootLayout({
@@ -12,11 +12,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko" className="scroll-smooth">
-      <body
-        className="bg-neutral-50 text-neutral-800"
-        style={{ fontFamily: "'Noto Sans KR', sans-serif" }}
-      >
+    <html lang="ko">
+      <body className="bg-stone-50 text-stone-800" style={{ fontFamily: "'Noto Sans KR', sans-serif" }}>
         {children}
       </body>
     </html>

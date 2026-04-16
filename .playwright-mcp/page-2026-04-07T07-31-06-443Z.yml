@@ -1,0 +1,88 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - link "My Portfolio" [ref=e6] [cursor=pointer]:
+          - /url: "#"
+        - generic [ref=e7]:
+          - link "About" [ref=e8] [cursor=pointer]:
+            - /url: "#about"
+          - link "Travel" [ref=e9] [cursor=pointer]:
+            - /url: "#travel"
+          - link "Photos" [ref=e10] [cursor=pointer]:
+            - /url: "#photos"
+    - generic [ref=e11]:
+      - img "Background" [ref=e12]
+      - generic [ref=e14]:
+        - paragraph [ref=e15]: Welcome
+        - heading "비엔티" [level=1] [ref=e16]
+        - paragraph [ref=e17]: 여행을 좋아하는 개발자입니다
+    - generic [ref=e19]:
+      - heading "About Me" [level=2] [ref=e20]
+      - generic [ref=e21]:
+        - img "Profile" [ref=e24]
+        - generic [ref=e26]:
+          - paragraph [ref=e27]: 안녕하세요!
+          - paragraph [ref=e28]: 저는 새로운 곳을 탐험하고 사진으로 기록하는 것을 좋아합니다. 이 사이트는 제가 직접 만든 첫 번째 웹사이트입니다. Next.js와 Tailwind CSS로 만들었습니다.
+          - generic [ref=e29]:
+            - generic [ref=e32]: 여행 사진 촬영
+            - generic [ref=e35]: 새로운 음식 탐험
+            - generic [ref=e38]: 웹 개발 배우기
+    - generic [ref=e40]:
+      - heading "Travel" [level=2] [ref=e41]
+      - paragraph [ref=e42]: 제가 다녀온 여행지들입니다
+      - generic [ref=e43]:
+        - generic [ref=e44] [cursor=pointer]:
+          - img "일본 교토" [ref=e45]
+          - generic [ref=e47]: Click to view
+          - paragraph [ref=e49]: 일본 교토의 아름다운 거리
+        - generic [ref=e50] [cursor=pointer]:
+          - img "프랑스 파리" [ref=e51]
+          - generic [ref=e53]: Click to view
+          - paragraph [ref=e55]: 파리 에펠탑 앞에서
+        - generic [ref=e56] [cursor=pointer]:
+          - img "이탈리아 베니스" [ref=e57]
+          - generic [ref=e59]: Click to view
+          - paragraph [ref=e61]: 베니스의 운하
+        - generic [ref=e62] [cursor=pointer]:
+          - img "스페인 바르셀로나" [ref=e63]
+          - generic [ref=e65]: Click to view
+          - paragraph [ref=e67]: 사그라다 파밀리아 성당
+        - generic [ref=e68] [cursor=pointer]:
+          - img "그리스 산토리니" [ref=e69]
+          - generic [ref=e71]: Click to view
+          - paragraph [ref=e73]: 산토리니의 하얀 집들
+        - generic [ref=e74] [cursor=pointer]:
+          - img "일본 도쿄" [ref=e75]
+          - generic [ref=e77]: Click to view
+          - paragraph [ref=e79]: 도쿄의 밤거리
+    - generic [ref=e82]:
+      - heading "Photos" [level=2] [ref=e83]
+      - paragraph [ref=e84]: 일상의 순간들
+      - generic [ref=e85]:
+        - generic [ref=e86] [cursor=pointer]:
+          - img "맛있는 음식" [ref=e87]
+          - generic [ref=e89]: Click to view
+          - paragraph [ref=e91]: 여행 중 만난 맛집
+        - generic [ref=e92] [cursor=pointer]:
+          - img "풍경 사진" [ref=e93]
+          - generic [ref=e95]: Click to view
+          - paragraph [ref=e97]: 아름다운 자연
+        - generic [ref=e98] [cursor=pointer]:
+          - img "산" [ref=e99]
+          - generic [ref=e101]: Click to view
+          - paragraph [ref=e103]: 겨울 산의 풍경
+    - contentinfo [ref=e104]:
+      - generic [ref=e105]:
+        - heading "비엔티" [level=3] [ref=e106]
+        - link "hello@example.com" [ref=e107] [cursor=pointer]:
+          - /url: mailto:hello@example.com
+        - generic [ref=e108]:
+          - link [ref=e109] [cursor=pointer]:
+            - /url: https://instagram.com
+            - img [ref=e110]
+          - link [ref=e112] [cursor=pointer]:
+            - /url: https://github.com
+            - img [ref=e113]
+        - paragraph [ref=e116]: Built with Next.js & Tailwind CSS
+  - alert [ref=e117]

@@ -1,0 +1,85 @@
+[     946ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    1010ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    1051ms] [WARNING] Image with src "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=80" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  414763ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  414775ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  459377ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  459390ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  459417ms] [WARNING] Image with src "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=80" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  463213ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  463244ms] [LOG] [Fast Refresh] done in 58ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  694030ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  694034ms] [WARNING] Image with src "https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%95%BC%EC%99%B8%EC%97%90%EC%84%9C-%EC%8B%A0%EC%84%A0%ED%95%9C-%EB%B3%B5%EC%88%AD%EC%95%84%EB%A5%BC-%EB%A8%B9%EA%B3%A0-%EC%9E%88%EB%8A%94-%EC%96%B4%EB%A6%B0-%EC%86%8C%EB%85%80-BvZYHz9TeCk" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  694057ms] Error: Invalid src prop (https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%95%BC%EC%99%B8%EC%97%90%EC%84%9C-%EC%8B%A0%EC%84%A0%ED%95%9C-%EB%B3%B5%EC%88%AD%EC%95%84%EB%A5%BC-%EB%A8%B9%EA%B3%A0-%EC%9E%88%EB%8A%94-%EC%96%B4%EB%A6%B0-%EC%86%8C%EB%85%80-BvZYHz9TeCk) on `next/image`, hostname "unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+    at defaultLoader (http://localhost:3001/_next/static/chunks/node_modules_next_0aj6m7e._.js:3036:49)
+    at http://localhost:3001/_next/static/chunks/node_modules_next_0aj6m7e._.js:460:39
+    at Array.map (<anonymous>)
+    at generateImgAttrs (http://localhost:3001/_next/static/chunks/node_modules_next_0aj6m7e._.js:460:24)
+    at getImgProps (http://localhost:3001/_next/static/chunks/node_modules_next_0aj6m7e._.js:873:27)
+    at http://localhost:3001/_next/static/chunks/node_modules_next_0aj6m7e._.js:3444:82
+    at Object.react_stack_bottom_frame (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15037:24)
+    at renderWithHooks (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4620:24)
+    at updateForwardRef (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:5908:21)
+    at beginWork (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6766:24)
+    at runWithFiberInDEV (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at performUnitOfWork (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9555:97)
+    at workLoopSync (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9098:47)
+    at performSyncWorkOnRoot (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10179:316)
+    at flushSyncWork$1 (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9230:86)
+    at Object.scheduleRefresh (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:299:13)
+    at http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:391:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:384:38)
+    at applyUpdate (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:878:31)
+    at http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:886:13
+[  694072ms] [LOG] [Fast Refresh] done in 45ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  710708ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  710765ms] [LOG] [Fast Refresh] done in 162ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  710772ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/?:0
+[  710802ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  710813ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  710834ms] [WARNING] Image with src "https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%95%BC%EC%99%B8%EC%97%90%EC%84%9C-%EC%8B%A0%EC%84%A0%ED%95%9C-%EB%B3%B5%EC%88%AD%EC%95%84%EB%A5%BC-%EB%A8%B9%EA%B3%A0-%EC%9E%88%EB%8A%94-%EC%96%B4%EB%A6%B0-%EC%86%8C%EB%85%80-BvZYHz9TeCk" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  710862ms] Error: Invalid src prop (https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%95%BC%EC%99%B8%EC%97%90%EC%84%9C-%EC%8B%A0%EC%84%A0%ED%95%9C-%EB%B3%B5%EC%88%AD%EC%95%84%EB%A5%BC-%EB%A8%B9%EA%B3%A0-%EC%9E%88%EB%8A%94-%EC%96%B4%EB%A6%B0-%EC%86%8C%EB%85%80-BvZYHz9TeCk) on `next/image`, hostname "unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+    at defaultLoader (http://localhost:3001/_next/static/chunks/node_modules_next_0aj6m7e._.js:3036:49)
+    at http://localhost:3001/_next/static/chunks/node_modules_next_0aj6m7e._.js:460:39
+    at Array.map (<anonymous>)
+    at generateImgAttrs (http://localhost:3001/_next/static/chunks/node_modules_next_0aj6m7e._.js:460:24)
+    at getImgProps (http://localhost:3001/_next/static/chunks/node_modules_next_0aj6m7e._.js:873:27)
+    at http://localhost:3001/_next/static/chunks/node_modules_next_0aj6m7e._.js:3444:82
+    at Object.react_stack_bottom_frame (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15037:24)
+    at renderWithHooks (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4620:24)
+    at updateForwardRef (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:5908:21)
+    at beginWork (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6766:24)
+    at runWithFiberInDEV (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at performUnitOfWork (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9555:97)
+    at workLoopSync (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9098:47)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3001/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64)
+[  724316ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  724318ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  724444ms] [LOG] [Fast Refresh] done in 46ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  724495ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  724510ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  724538ms] [WARNING] Image with src "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&q=80" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  808916ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  808920ms] [WARNING] Image with src "https://images.unsplash.com/photo-1775315815915-43af175d4c95?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8?w=600&q=80" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  808955ms] [LOG] [Fast Refresh] done in 39ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  811534ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  811538ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  811584ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  811599ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  811612ms] [WARNING] Image with src "https://images.unsplash.com/photo-1775315815915-43af175d4c95?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8?w=600&q=80" is using quality "80" which is not configured in images.qualities [75]. Please update your config to [75, 80].
+Read more: https://nextjs.org/docs/messages/next-image-unconfigured-qualities @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
