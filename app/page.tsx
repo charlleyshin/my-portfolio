@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
 // 여기를 수정하세요! (개인 정보)
 // ============================================
 const myInfo = {
-  name: "비엔티",
+  name: "신유하",
   tagline: "여행을 좋아하는 기획자입니다",
   email: "hello@example.com",
   greeting: "안녕하세요!",
